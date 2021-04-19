@@ -1,1 +1,1 @@
-# Respnsive_CommunityPage
+# Responsive_CommunityPage
