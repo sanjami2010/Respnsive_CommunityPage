@@ -1,0 +1,84 @@
+body{
+ background-image: url("../images/bg-desktop.svg");
+ background-color: rgb(123, 28, 212);
+
+}
+header{
+  margin-top:40px;
+  margin-left:50px;
+}
+
+.container{
+  display:flex;
+ justify-content: center;
+  margin-left:30px;
+  }
+.container > section{
+  padding:1rem;
+ 
+  
+}
+.item1{
+ flex:1;
+}
+
+.item2{
+   flex:1;
+  }
+ 
+ h1{
+   font-family: 'Poppins', sans-serif;
+   color:white;
+   font-weight: 600;
+   width:50%;
+ }
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  font-weight:400;
+  width:50%;
+  }
+
+button{
+  color: hsl(257, 40%, 49%);
+  width: 10rem;
+  border-radius: 25px;
+  height: 3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+ background-color: hsl(300, 69%, 71%);
+
+}
+
+footer > img{
+  width: 64px;
+  float: right;
+  margin-right:1.5rem;
+  
+}
+@media screen and  (max-width:600px) {
+     header > img{
+       width:50%;
+     }
+     .container{
+       display: block;
+     }
+     .item1 img{
+       width:91% !important;
+     }
+
+     h1{width:100%;}
+     h5{width:100%;}
+     
+     footer > img {
+      width:40px;
+      padding-right: 1.5rem;
+  }
+      button{
+        width:17rem;
+        }
+
+};
